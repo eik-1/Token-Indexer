@@ -1,0 +1,22 @@
+.navbar {
+    background-color: transparent;
+    color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 4rem;
+    font-family: "Space Mono", monospace;
+    letter-spacing: -3px;
+    color: #DDE6ED;
+}
+
+.connectButton {
+    margin-right: 4rem;
+}

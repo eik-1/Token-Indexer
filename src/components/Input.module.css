@@ -1,0 +1,62 @@
+.container {
+    position: relative;
+  }
+  
+  .inputContainer {
+    position: relative;
+  }
+  
+  .enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inputAddress {
+    width: 50%;
+    height: 1.2rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #DDE6ED;
+    background-color: #27374D;
+    color: #DDE6ED;
+  }
+  
+  .inputAddress::placeholder {
+    color: #DDE6ED;
+  }
+  
+  .inputAddress:focus {
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #DDE6ED;
+    color: #27374D;
+    border: 1px solid #27374D;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .indicator {
+    position: absolute;
+    left: 28%;
+    top: 60%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .wrongAddress {
+    color: #FF0000;   
+  }
+  
+  .correctAddress {
+    color: #06D001;
+  }
